@@ -20,12 +20,73 @@ function About() {
           .typeString("Welcomes You!!! ")
             
           .pauseFor(1000)
-          
-          .typeString("I'm a Front End Developer located in Israel. I love to create simple yet beautiful websites with great user experience. I'm interested in the whole frontend stack Like trying new things and building great projects. I'm an independent freelancer and blogger. I love to play video games and read books. I believe everything is an Art when you put your consciousness in it. You can connect with me via social links.")
           .start();
           }}
           />
+          </p>
+          <p className={styles.desc}>
+          <Typewriter
+  
+          onInit={(typewriter)=> {
+      
+          typewriter
+            
 
+            
+          .pauseFor(2000)
+          
+          .typeString("I'm a Front End Developer located in Israel. I love to create simple yet beautiful websites with great user experience. ")
+          .start();
+          }}
+          />
+          </p>
+          <p className={styles.desc}>
+          <Typewriter
+  
+          onInit={(typewriter)=> {
+      
+          typewriter
+            
+
+            
+          .pauseFor(19000)
+          
+          .typeString(" I'm interested in the whole frontend stack Like trying new things and building great projects. I'm an independent freelancer and blogger. I love to play video games and read books.")
+          .start();
+          }}
+          />
+          </p>
+          <p className={styles.desc}>
+          <Typewriter
+  
+          onInit={(typewriter)=> {
+      
+          typewriter
+            
+
+            
+          .pauseFor(45000)
+          
+          .typeString("I believe everything is an Art when you put your consciousness in it.")
+          .start();
+          }}
+          />
+          </p>
+          <p className={styles.desc}>
+          <Typewriter
+  
+          onInit={(typewriter)=> {
+      
+          typewriter
+            
+
+            
+          .pauseFor(55000)
+          
+          .typeString("You can connect with me via social links.")
+          .start();
+          }}
+          />
           </p>
           
           

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bbd89b58.css",
+    "main.js": "/static/js/main.c1bc7097.js",
+    "static/media/Insurrection.mp3": "/static/media/Insurrection.3fdafb2463866eea745d.mp3",
+    "static/media/Vampire-Wars-Italic.ttf": "/static/media/Vampire-Wars-Italic.50b10b4c6f28b65d7e3f.ttf",
+    "static/media/CyberwayRiders-lg97d.ttf": "/static/media/CyberwayRiders-lg97d.a5eed877f3e56aea68a0.ttf",
+    "index.html": "/index.html",
+    "main.bbd89b58.css.map": "/static/css/main.bbd89b58.css.map",
+    "main.c1bc7097.js.map": "/static/js/main.c1bc7097.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbd89b58.css",
+    "static/js/main.c1bc7097.js"
+  ]
+}

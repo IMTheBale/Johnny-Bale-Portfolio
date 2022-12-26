@@ -1,0 +1,73 @@
+.container{
+    display: flex;
+    justify-content: center;
+    height: calc(60vh - 200px);
+    padding-top: 100px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+}
+
+.tab {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    cursor: pointer;
+    font-size: var(--fz-xxxl);
+    border-left: 3px solid var(--black-color);
+    transition: var(--transition);
+    border-radius: 2px;
+    clip-path: polygon(92% 0, 100% 25%, 100% 100%, 8% 100%, 0% 75%, 0 0);
+
+}
+
+.tab:hover {
+    background: var(--black-color);
+    color: var(--white-color);
+}
+
+.active_tab {
+    color: var(--red-color);
+    border-left: 2px solid var(--red-color);
+}
+
+.right {
+    padding-left: 40px;
+    font-family: 'Cyberpunk', sans-serif;
+}
+
+.title {
+    margin: 0;
+    line-height: 50px;
+    font-weight: 500;
+    font-size: var(--fz-xxxl);
+}
+
+.title > a {
+    color: var(--red-color);
+}
+
+.duration {
+    font-family: 'Cyberpunk', sans-serif;
+    margin: 0;
+    font-size: var(--fz-xl);
+    color: var(--red-color);
+}
+
+.desc {
+    display: flex;
+    align-items: center;
+    font-size: var(--fz-xxl);
+    color: var(--black-color);
+}
+
+.desc > svg {
+    color: var(--blue-color);
+    width: 15px;
+    height: 15px;
+    margin-right: 15px;
+}

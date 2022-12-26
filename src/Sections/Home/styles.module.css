@@ -1,0 +1,52 @@
+.home_section {
+    width: calc(100% - 200px);
+    height: 100vh;
+    max-height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Cyberpunk', sans-serif;
+}
+
+.greet {
+    font-family: 'Cyberpunk', sans-serif;
+    font-size: var(--fz-heading);
+    color: var(--black-color);
+    margin: 10px 0;
+}
+
+.heading_1 {
+    color: var(--black-color);
+    font-size: 100px;
+    margin: 0;
+}
+
+.heading_2 {
+    font-size: 40px;
+    margin: 20px 20px;
+    color: var(--black-color);
+}
+
+.desc {
+    font-size: var(--fz-md);
+    width: 65%;
+}
+
+.btn {
+    height: 40px; 
+    outline: none;
+    font-size: var(--fz-xl);
+    background: transparent;
+    border-radius: 5px;
+    border-color: var(--blue-color);
+    color: var(--black-color);
+    width: 300px;
+    cursor: pointer;
+    margin-top: 70px;
+    font-family: 'Cyberpunk', sans-serif;
+    clip-path: polygon(92% 0, 100% 25%, 100% 100%, 8% 100%, 0% 75%, 0 0);
+}
+
+.btn:hover {
+    background: var(--blue-color);
+}

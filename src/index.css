@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Cyberpunk';
+  src: local('Cyberpunk'), url(../public/CyberwayRiders-lg97d.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Vampire';
+  src: local('Vampire'), url(../public/Vampire-Wars-Italic.ttf) format('truetype');
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Cyberpunk', sans-serif;
+  color: var(--blue);
+  background-color: var(--yellow-color);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+:root {
+  --transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+  --yellow-color: #fcee09; 
+  --red-color: #ff003c;
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --blue-color: #00f0ff;
+  --fz-xxs: 12px;
+  --fz-xs: 13px;
+  --fz-sm: 14px;
+  --fz-md: 16px;
+  --fz-lg: 18px;
+  --fz-xl: 20px;
+  --fz-xxl: 22px;
+  --fz-xxxl: 24px;
+  --fz-heading: 32px;
+}
+

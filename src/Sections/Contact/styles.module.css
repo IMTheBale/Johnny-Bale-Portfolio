@@ -1,0 +1,49 @@
+.contact_section {
+    height: 100vh;
+    max-height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cyberpunk', sans-serif;
+    position: relative;
+}
+
+.heading_1 {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.heading_2 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.desc {
+    font-size: var(--fz-xxxl);
+    width: 600px;
+    text-align: center;
+    color: var(--black-color);
+}
+
+.btn {
+    outline: none;
+    font-size: var(--fz-xxl);
+    background: transparent;
+    border-color: var(--blue-color);
+    color: var(--black-color);
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 20px;
+    position: relative;
+    font-family: 'Cyberpunk', sans-serif;
+    clip-path: polygon(92% 0, 100% 25%, 100% 100%, 8% 100%, 0% 75%, 0 0);
+}
+
+.btn:hover {
+    background: var(--blue-color);
+}

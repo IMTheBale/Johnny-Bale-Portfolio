@@ -1,0 +1,64 @@
+{
+    "experiences": [
+        {
+            "company": "University of Haifa",
+            "link": "/",
+            "title": "Security Inspector",
+            "duration": "May 2016 - may 2017",
+            "desc": [
+                "I was tasked with securing the premises and personnel by staying on patrol.", 
+                "Monitoring surveillance equipment.",
+                "Performing building inspections.",
+                "Guarding entry points, and verifying visitors."
+            ]
+        },
+        {
+            "company": "Intel",
+            "link": "/",
+            "title": "Maintenance Worker",
+            "duration": "Sep 2017 - Sep 2018",
+            "desc": [
+                "I was a worker who can fix and maintain mechanical equipment, buildings, and machines.",
+                "Tasks include plumbing work, painting, flooring repair and upkeep.",
+                "Electrical repairs and heating and air conditioning system maintenance."
+            ]
+        },
+        {
+            "company": "University of Haifa",
+            "link": "/",
+            "title": "Maintenance Worker",
+            "duration": "Sep 2020 - Jan 2021",
+            "desc": [
+                "I was a worker who can fix and maintain mechanical equipment, buildings, and machines.",
+                "Tasks include plumbing work, painting, flooring repair and upkeep.",
+                "Electrical repairs and heating and air conditioning system maintenance."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title":"Responsive Personal Porfolio.",
+            "image": "./images/project_1.png",
+            "desc": "It is build on top of the React JS, with styled Components for smooth scrolling animations. I value business or brand for which i'm creating, thus i enjoy bringing new ideas to life. ",
+            "skills": ["React", "JavaScript", "HTML", "CSS"],
+            "github": "/",
+            "link": "https://github.com/IMTheBale/Johnny-Bale-Portfolio"
+        },
+        {
+            "title":"Man Runner - Under Development",
+            "image": "./images/project_2.png",
+            "desc": "Pretty simple and cute game created by myself.In this game you need just run forward, jump sometimes, slide sometimes and stay alive as long as possible. Have fun!",
+            "skills": ["C#", "Unity"],
+            "github": "/",
+            "link": "/"
+        },
+        {
+            "title":"Shopping Cart",
+            "image": "./images/project_3.png",
+            "desc": "A shopping cart is a piece of software that acts as an online store's catalog and ordering process. It allows customers to select products, review what they have selected, make necessary modifications or additions.",
+            "skills": ["React", "Vite", "TypeScript"],
+            "github": "",
+            "link": "https://github.com/IMTheBale/React-Shopping-Cart-Vite-Typescript"
+        }
+    ]
+}

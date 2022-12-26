@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(60vh - 200px);
+}
+
+.left {
+    flex: 1.5;
+    padding: 70px;
+}
+
+.desc {
+    font-family: 'Cyberpunk', sans-serif;
+    color: var(--black-color);
+    font-size: var(--fz-xxxl);
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile_img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.img_border {
+    width: 300px;
+    height: 295px;
+    position: absolute;
+    border: 1.5px solid var(--black-color);
+    border-radius: 8px;
+    box-shadow: 0 10px 50px -10px var(--black-color);
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: var(--transition);
+    z-index: -1;
+}
+
+.profile_img:hover ~ .img_border {
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: var(--black-color);
+}

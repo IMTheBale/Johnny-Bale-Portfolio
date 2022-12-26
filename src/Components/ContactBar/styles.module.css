@@ -1,0 +1,50 @@
+.contact_bar_wrapper {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_bar {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    position: relative;
+}
+
+.line {
+    width: 1.5px;
+    height: 120px;
+    background: var(--black-color);
+    margin-top: 20px;
+}
+
+.email {
+    font-family: 'Cyberpunk', sans-serif;
+    font-size: var(--fz-xxs);
+    writing-mode: vertical-rl;
+    letter-spacing: 1px;
+    margin: 0;
+    cursor: pointer;
+    transition: var(--transition);
+    color: var(--black-color);
+}
+
+.icon {
+    margin-top: 15px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.email:hover {
+    color: var(--blue-color);
+    margin-bottom: 3px;
+}
+
+.icon:hover {
+    color: var(--blue-color);
+    transform: translateY(-3px);
+}

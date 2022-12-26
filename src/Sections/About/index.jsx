@@ -17,11 +17,11 @@ function About() {
       
           typewriter
             
-          .typeString("my name is johnny. ")
+          .typeString("Welcomes You!!! ")
             
           .pauseFor(1000)
           
-          .typeString("Welcomes You")
+          .typeString("I'm a Front End Developer located in Israel. I love to create simple yet beautiful websites with great user experience. I'm interested in the whole frontend stack Like trying new things and building great projects. I'm an independent freelancer and blogger. I love to play video games and read books. I believe everything is an Art when you put your consciousness in it. You can connect with me via social links.n")
           .start();
           }}
           />

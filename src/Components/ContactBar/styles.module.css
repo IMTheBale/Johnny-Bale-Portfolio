@@ -24,7 +24,7 @@
 
 .email {
     font-family: 'Cyberpunk', sans-serif;
-    font-size: var(--fz-xxs);
+    font-size: var(--fz-lg);
     writing-mode: vertical-rl;
     letter-spacing: 1px;
     margin: 0;

@@ -59,6 +59,14 @@
             "skills": ["React", "Vite", "TypeScript"],
             "github": "",
             "link": "https://github.com/IMTheBale/React-Shopping-Cart-Vite-Typescript"
+        },
+        {
+            "title":"TOYS-R-U-website",
+            "image": "./images/project_4.png",
+            "desc": "Toy store home page.",
+            "skills": ["HTML"],
+            "github": "",
+            "link": "https://github.com/IMTheBale/TOYS-R-U-website"
         }
     ]
 }

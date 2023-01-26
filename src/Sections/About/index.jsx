@@ -35,7 +35,7 @@ function About() {
             
           .pauseFor(2000)
           
-          .typeString("I'm a Front End Developer located in Israel. I love to create simple yet beautiful websites with great user experience. ")
+          .typeString("I'm a Web Developer located in Israel. I love to create simple yet beautiful websites with great user experience. ")
           .start();
           }}
           />

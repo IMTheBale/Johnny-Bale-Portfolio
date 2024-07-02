@@ -30,7 +30,7 @@
 
 .img_border {
     width: 300px;
-    height: 295px;
+    height: 400px;
     position: absolute;
     border: 1.5px solid var(--black-color);
     border-radius: 8px;

@@ -20,7 +20,7 @@ function Navbar() {
 				<a href="#contact" className={styles.nav_link}>
 					Contact
 				</a>
-				<a href="Johnny-Bale-Resume.pdf" download="Johnny-Bale-Resume.pdf">
+				<a href="Full Stack Web Developer.pdf" download="Full Stack Web Developer.pdf">
 					<button className={styles.nav_resume_btn}>DOWNLOAD CV</button>
 				</a>
 				

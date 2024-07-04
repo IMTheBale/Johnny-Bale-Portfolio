@@ -3,93 +3,31 @@ import Heading from "../../Components/Heading";
 import styles from "./styles.module.css";
 import Typewriter from "typewriter-effect";
 
-
 function About() {
   return (
     <section id="about">
       <Heading heading="About Me" />
       <div className={styles.container}>
         <div className={styles.left}>
-          <p className={styles.desc}>
           <Typewriter
-  
-          onInit={(typewriter)=> {
-      
-          typewriter
-            
-          .typeString("Welcomes You!!! ")
-            
-          .pauseFor(1000)
-          .start();
-          }}
+            options={{
+              delay: 50,
+              wrapperClassName: styles.typewriterWrapper
+            }}
+            onInit={(typewriter) => {
+              typewriter
+                .typeString("<p>Welcomes You!!!</p>")
+                .pauseFor(1000)
+                .typeString("<p>I'm a Full Stack Web Developer based in Israel.</p>")
+                .pauseFor(1000)
+                .typeString("<p>I specialize in creating robust and user-friendly websites with a seamless user experience. My interests span the entire development stack, from crafting engaging front-end interfaces to building efficient back-end systems.</p>")
+                .pauseFor(1000)
+                .typeString("<p>As an independent freelancer and avid blogger, I enjoy experimenting with new technologies and taking on challenging projects. I work well both independently and as part of a team, adapting to different workflows and collaboration styles. When I'm not coding, you can find me playing video games or immersed in a good book. I believe that with passion and dedication, anything can be transformed into art.</p>")
+                .pauseFor(1000)
+                .typeString("You can connect with me via social links.")
+                .start();
+            }}
           />
-          </p>
-          <p className={styles.desc}>
-          <Typewriter
-  
-          onInit={(typewriter)=> {
-      
-          typewriter
-            
-
-            
-          .pauseFor(2000)
-          
-          .typeString("I'm a Web Developer located in Israel. I love to create simple yet beautiful websites with great user experience. ")
-          .start();
-          }}
-          />
-          </p>
-          <p className={styles.desc}>
-          <Typewriter
-  
-          onInit={(typewriter)=> {
-      
-          typewriter
-            
-
-            
-          .pauseFor(19000)
-          
-          .typeString(" I'm interested in the whole frontend stack Like trying new things and building great projects. I'm an independent freelancer and blogger. I love to play video games and read books.")
-          .start();
-          }}
-          />
-          </p>
-          <p className={styles.desc}>
-          <Typewriter
-  
-          onInit={(typewriter)=> {
-      
-          typewriter
-            
-
-            
-          .pauseFor(45000)
-          
-          .typeString("I believe everything is an Art when you put your consciousness in it.")
-          .start();
-          }}
-          />
-          </p>
-          <p className={styles.desc}>
-          <Typewriter
-  
-          onInit={(typewriter)=> {
-      
-          typewriter
-            
-
-            
-          .pauseFor(55000)
-          
-          .typeString("You can connect with me via social links.")
-          .start();
-          }}
-          />
-          </p>
-          
-          
         </div>
         <div className={styles.right}>
           <img

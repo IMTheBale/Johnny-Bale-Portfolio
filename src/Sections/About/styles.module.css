@@ -8,6 +8,7 @@
 .left {
     flex: 1.5;
     padding: 70px;
+    font-size: var(--fz-xxxl);
 }
 
 .desc {

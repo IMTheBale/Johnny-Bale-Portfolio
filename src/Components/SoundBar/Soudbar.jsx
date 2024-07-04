@@ -52,12 +52,11 @@ const Line = styled.span`
 
 const SoundBar = () => {
   const audioRef = useRef(null);
-  const [isPlaying, setIsPlaying] = useState(true);
+  const [isPlaying, setIsPlaying] = useState(false);
 
   useEffect(() => {
     if (audioRef.current) {
       audioRef.current.volume = 0.1; // Set volume to 10%
-      audioRef.current.play(); // Start playing automatically
     }
   }, []);
 
@@ -79,7 +78,7 @@ const SoundBar = () => {
       <Line click={isPlaying} />
       <Line click={isPlaying} />
 
-      <audio src={music} ref={audioRef} loop autoPlay />
+      <audio src={music} ref={audioRef} loop />
     </Box>
   );
 };

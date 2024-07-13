@@ -45,28 +45,12 @@
             "link": "https://github.com/IMTheBale/Johnny-Bale-Portfolio"
         },
         {
-            "title":"Man Runner - Under Development",
+            "title":"BabyBot - World! - Currently under development",
             "image": "./images/project_2.png",
-            "desc": "Pretty simple and cute game created by myself.In this game you need just run forward, jump sometimes, slide sometimes and stay alive as long as possible. Have fun!",
-            "skills": ["C#", "Unity"],
+            "desc": "",
+            "skills": ["Vite", "React", "Flask", "TypeScript", "CSS", "Python", "JSON"],
             "github": "/",
             "link": "/"
-        },
-        {
-            "title":"Shopping Cart",
-            "image": "./images/project_3.png",
-            "desc": "A shopping cart is a piece of software that acts as an online store's catalog and ordering process. It allows customers to select products, review what they have selected, make necessary modifications or additions.",
-            "skills": ["React", "Vite", "TypeScript"],
-            "github": "",
-            "link": "https://github.com/IMTheBale/React-Shopping-Cart-Vite-Typescript"
-        },
-        {
-            "title":"TOYS-R-U-website",
-            "image": "./images/project_4.png",
-            "desc": "Toy store home page.",
-            "skills": ["HTML"],
-            "github": "",
-            "link": "https://github.com/IMTheBale/TOYS-R-U-website"
         }
     ]
 }

@@ -12,6 +12,9 @@ function ContactBar() {
 				<a href="https://www.linkedin.com/in/johnny-bale/" target="blank" className={styles.icon} >
 					<LinkedInIcon  />
 				</a>
+				<a href="https://www.facebook.com/JohnBaleOfficial/" target="blank" className={styles.icon} >
+					<FacebookIcon  />
+				</a>
 				<a href="https://github.com/IMTheBale" target="blank" className={styles.icon} >
 					<GitHubIcon  />
 				</a>
